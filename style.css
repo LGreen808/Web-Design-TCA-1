@@ -139,7 +139,7 @@ body {
     width: 180px;
     height: 40px;
     border-radius: 50%;
-    animation: zoomy 2s infinite;
+    animation: floaty 2s infinite;
 }
 
 @keyframes floaty {
