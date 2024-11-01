@@ -135,7 +135,18 @@ body {
     }
 
     50% {
-        transform: translateY(-20)
+        transform: translateY(-20px);
+    }
+}
+
+
+@keyframes zoomy {
+    0%, 100% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(0.8);
     }
 }
 
