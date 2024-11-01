@@ -1,3 +1,9 @@
+h1 {
+   color: darkorange;
+}
+
+
+
 body {
     overflow: hidden;
     height: 100vh;
@@ -6,16 +12,23 @@ body {
     justify-content: center;
     align-items: center;
     margin: 0;
-    background: #424f6f;
-
+    background: url(imgs/HyadesY16JanD07-2dc9bb4.webp);
+    background-repeat:no-repeat;
+    background-size: cover;
 }
+
+
+
+
+
+
+
 
 #container {
     width: 400px;
     height: 400px;
     padding: 0;
-    box-sizing: border-box;
-    background: #424f6f; 
+    box-sizing: border-box; 
 }
 
 *:after,
@@ -36,7 +49,7 @@ body {
     margin: 50px auto 0;
     width: 180px;
     height: 220px;
-    background: #f2fbf1;
+    background: lightblue;
     border-top-left-radius: 90px;
     border-top-right-radius: 90px;
 }
@@ -47,11 +60,11 @@ body {
     position: absolute;
     top: 130px;
     display: inline-block;
-    width: 36px;
+    width: 50px;
     height: 36px;
     border-radius: 50%;
-    background: #f2fbf1;
-    animation: floaty .2s infinite;
+    background: red;
+    animation: floaty 2s infinite;
 }
 
 #spooky #body:before {
@@ -116,13 +129,13 @@ body {
     content: ' ';
     width: 36px;
     height: 36px;
-    background: #f2fbf1;
+    background: lightblue;
     border-radius: 50%;
 }
 
 #shadow {
     margin: -90px auto 0;
-    background: #252c49;
+    background: yellow;
     width: 180px;
     height: 40px;
     border-radius: 50%;
@@ -149,6 +162,7 @@ body {
         transform: scale(0.8);
     }
 }
+
 
 
 
