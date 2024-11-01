@@ -1,9 +1,10 @@
+/****Changed the text color to dark orange*****/
 h1 {
    color: darkorange;
 }
 
 
-
+/*****Adjusted my background image to cover my page and to be only one***/
 body {
     overflow: hidden;
     height: 100vh;
@@ -35,7 +36,7 @@ body {
 *:before {
    box-sizing: inherit;
 }
-
+/*****Changed the duration of this animation property here****/
 #spooky {
     margin: 10% auto;
     width: 80%;
@@ -43,7 +44,7 @@ body {
     animation: floaty 2s infinite;
 }
 
-
+/****Changed the body color of the ghost from white to lightblue*****/
 #spooky #body {
     position: relative;
     margin: 50px auto 0;
@@ -53,7 +54,9 @@ body {
     border-top-left-radius: 90px;
     border-top-right-radius: 90px;
 }
-
+/*****Changed the width of the arms to be wider****/
+/****Changed the color of the arms to red***/
+/*** Changed the duration of the animation of the arms*****/
 #spooky #body:before,
 #spooky #body:after {
     content: '';
@@ -122,7 +125,7 @@ body {
     width: 180px;
     height: 36px;
 }
-
+/*****Changed the color of the bottom of the ghost from white to lightblue***/
 #spooky #body #feet > *,
 #spooky #body #feet::before,
 #spooky #body #feet::after {
@@ -132,7 +135,8 @@ body {
     background: lightblue;
     border-radius: 50%;
 }
-
+/***Changed the color of the shadow to yellow******/
+/****Changed the animation of zoomy to floaty*****/
 #shadow {
     margin: -90px auto 0;
     background: yellow;
