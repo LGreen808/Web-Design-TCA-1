@@ -50,7 +50,7 @@ body {
     border-top-right-radius: 90px;
 }
 /*****Changed the width of the arms to be wider****/
-/****Changed the color of the arms to red***/
+/****Changed the color of the arms to light blue***/
 /*** Changed the duration of the animation of the arms*****/
 #spooky #body:before,
 #spooky #body:after {
@@ -61,7 +61,7 @@ body {
     width: 50px;
     height: 36px;
     border-radius: 50%;
-    background: red;
+    background: lightblue;
     animation: floaty 2s infinite;
 }
 
